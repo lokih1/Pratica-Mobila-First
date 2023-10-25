@@ -1,0 +1,49 @@
+.perfil {
+  background-color: var(--branco);
+  width: auto;
+  padding-bottom: 2rem;
+}
+
+.imagem__perfil {
+  display: flex;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/lagrima\ olhos\ choro\ tristeza\ amor\ dor.jpg");
+  margin: auto;
+  box-shadow: -5px 5px 5px -7px var(--background);
+  -webkit-box-shadow: -5px 5px 5px var(--background);
+  -moz-box-shadow: -5px 5px 5px -7px var(--background);
+}
+.titulo__perfil,
+.perfil__descricao,
+.botao__perfil {
+  text-align: center;
+}
+.titulo__perfil {
+  padding: 2rem 5rem 1.5rem 5rem;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--azul-escuro);
+  line-height: 40px;
+}
+.perfil__descricao {
+  color: var(--azul-escuro);
+  padding: 0 2rem 1.5rem 2rem;
+  line-height: normal;
+}
+.botao__perfil {
+    padding-top: 1rem;
+}
+.botao__perfil-estilo {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 2px;
+  background: var(--cor-botao);
+  color: var(--branco);
+  padding: 0.5rem 1rem
+}

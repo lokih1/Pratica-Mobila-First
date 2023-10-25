@@ -1,0 +1,19 @@
+@import url("/style/header.css");
+@import url("/style/Perfil.css");
+
+
+:root {
+    --background: #EDF7FA;
+    --preto: #000000;
+    --azul-escuro: #21243D;
+    --cor-botao: #FF6464;
+    --fonte-principal: 'Heebo';
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
