@@ -1,6 +1,5 @@
 .perfil {
-  background-color: var(--branco);
-  width: auto;
+  background-color: var(--branco);  
   padding-bottom: 2rem;
 }
 
@@ -47,3 +46,7 @@
   color: var(--branco);
   padding: 0.5rem 1rem
 }
+/* .botao__perfil-estilo:hover {
+  background-color: rgb(255, 55, 20);
+  color: var(--preto);
+} 

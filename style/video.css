@@ -1,0 +1,49 @@
+.video__container {
+  padding-top: 1rem;
+  background-color: var(--branco);
+}
+
+.titulo__video {
+  font-size: 18px;
+  color: var(--azul-escuro);
+  text-align: center;
+}
+.video__caixa {
+  padding: 1rem;
+  text-align: center;
+}
+video {
+  border-radius: 24px;
+  max-width: 100%;
+  height: auto;
+}
+.subtitulo__video {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--azul-escuro);
+    padding-left: 1rem;
+}
+.tag__video {
+    display: inline-flex;
+    padding: .5rem 1rem 0.5rem 1rem;
+}
+.data__video {
+    font-weight: 900;
+    color: var(--branco);
+    border-radius: 16px ;
+    background-color: var(--azul-escuro);
+    text-align: center;
+    padding-top: 5px;
+    width: 50px;
+    height: 20px;
+}
+.tipo__video {
+    padding-left: 2rem;
+    padding-top: 5px;
+    color: var(--cinza-claro);
+}
+.descricao__video {
+    color: var(--azul-escuro);
+    line-height: normal;
+    padding: 0.5rem 1rem;
+}

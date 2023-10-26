@@ -1,5 +1,7 @@
 @import url("/style/header.css");
 @import url("/style/Perfil.css");
+@import url("/style/posts.css");
+@import url("/style/video.css");
 
 
 :root {
@@ -9,6 +11,7 @@
     --cor-botao: #FF6464;
     --fonte-principal: 'Heebo';
     --branco: #FFFFFF;
+    --cinza-claro:#8695A4;
 }
 
 body {
@@ -16,4 +19,5 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    
 }

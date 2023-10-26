@@ -11,22 +11,72 @@
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <header class="menu">
-        <div class="container__menu">
-            <input type="checkbox" id="menu__cabeçalho" class="container__botao" />
-            <label for="menu__cabeçalho" class="menu__label">
-              <span class="menu__botao container__img"></span>
-            </label>
+      <div class="menu__container">
+        <label class="menu__label">
+          <span class="menu__botao container__img"></span>
+        </label>
+      </div>
     </header>
+
     <section class="perfil">
-        <div class="imagem__perfil"></div>
-        <h2 class="titulo__perfil">Hi, I am John,
-            Creative Technologist</h2>
-        <p class="perfil__descricao">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <p class="botao__perfil"><a href="#" class="botao__perfil-estilo" >Dowload Resume</a></p>
+      <div class="imagem__perfil"></div>
+      <h2 class="titulo__perfil">Hi, I am John, Creative Technologist</h2>
+      <p class="perfil__descricao">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+      <p class="botao__perfil">
+        <a href="#" class="botao__perfil-estilo">Dowload Resume</a>
+      </p>
+    </section>
+
+    <section class="posts">
+      <p class="posts__titulo">Recent Posts</p>
+      <div class="posts__box">
+        <h2 class="posts__subtitulo">Making a design system from scratch</h2>
+        <div class="posts__info">
+          <p class="posts__data">12 Feb 2020</p>
+          <p class="posts__tag">Design, Pattern</p>
+        </div>
+        <p class="posts__descricao">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+
+      <div class="posts__box">
+        <h2 class="posts__subtitulo">Creating pixel perfect icons in Figma</h2>
+        <div class="posts__info">
+          <p class="posts__data">12 Feb 2020</p>
+          <p class="posts__tag">Design, Pattern</p>
+        </div>
+        <p class="posts__descricao">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+    </section>
+    <section class="video__container">
+      <h2 class="titulo__video">Featured works</h2>
+      <div class="video__caixa">
+        <video controls>
+          <source src="/video/neco__video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <h2 class="subtitulo__video">Video description</h2>
+      <div class="tag__video">
+        <p class="data__video">2020</p>
+        <p class="tipo__video">Video</p>
+      </div>
+      <p class="descricao__video">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
     </section>
   </body>
 </html>
