@@ -1,5 +1,5 @@
 .perfil {
-  background-color: var(--branco);  
+  background-color: var(--branco);
   padding-bottom: 2rem;
 }
 
@@ -35,7 +35,7 @@
   line-height: normal;
 }
 .botao__perfil {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 .botao__perfil-estilo {
   text-decoration: none;
@@ -44,9 +44,39 @@
   border-radius: 2px;
   background: var(--cor-botao);
   color: var(--branco);
-  padding: 0.5rem 1rem
+  padding: 0.5rem 3rem;
 }
-/* .botao__perfil-estilo:hover {
-  background-color: rgb(255, 55, 20);
-  color: var(--preto);
-} 
+
+
+@media screen and (min-width: 1728px) {
+  .caixa__perfil {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem 23vw;
+  }
+  .perfil__info {
+    width: 50%;
+    margin: 3rem;
+  }
+  .titulo__perfil,
+  .perfil__descricao,
+  .botao__perfil {
+    text-align: start;
+  }
+  .titulo__perfil {
+    padding: 0 0 1rem 2rem;
+    font-size: 44px;
+    line-height: normal;
+  }
+  .imagem__perfil {
+    width: 230px;
+    height: 230px;
+  }
+  .botao__perfil {
+    padding: 2rem;
+  }
+  .botao__perfil-estilo:hover {
+    background-color: rgb(255, 55, 20);
+    color: var(--preto);
+  } 
+}
