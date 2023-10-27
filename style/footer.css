@@ -1,0 +1,18 @@
+.rodape {
+  background-color: var(--branco);
+  padding: 1.5 rem 0 3rem 0;
+}
+.caixa__rodape {
+  border-top: var(--cinza-claro) solid 1px;
+  padding: 10rem 2rem 1rem 2rem;
+  margin: 0 1rem;
+}
+.lista__rodape {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.rodape__texto {
+  text-align: center;
+}
