@@ -16,3 +16,13 @@
 .rodape__texto {
   text-align: center;
 }
+
+@media screen and (min-width: 1728px) {
+  .caixa__rodape {
+    border-top: none;
+    padding-top: 8rem;
+  }
+  .lista__rodape {
+    padding-bottom: 1rem;
+  }
+}
